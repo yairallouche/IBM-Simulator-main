@@ -1,0 +1,18 @@
+{
+  "T1021.001": "Remote Services: Remote Desktop Protocol",
+  "T1021.002": "Remote Services: SMB/Windows Admin Shares",
+  "T1021.004": "Remote Services: SSH",
+  "T1021.005": "Remote Services: VNC",
+  "T1021.006": "Remote Services: Windows Remote Management",
+  "T1046": "Network Service Scanning",
+  "T1135": "Network Share Discovery",
+  "T1018": "Remote System Discovery",
+  "T1039": "Data from Network Shared Drive",
+  "T1048": "Exfiltration Over Alternative Protocol",
+  "T1041": "Exfiltration Over C2 Channel",
+  "T1071.004": "Application Layer Protocol: DNS",
+  "T1071.001": "Application Layer Protocol: Web Protocols",
+  "T1095": "Non-Application Layer Protocol",
+  "T1571": "Remote Services: SSH",
+  "T1021": "Non-Standard Port"
+}

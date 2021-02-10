@@ -1,0 +1,36 @@
+[
+    {
+        "flowdirection": null,
+        "protocolid": 17,
+        "applicationid": 21036,
+        "destinationport": 53,
+        "destination_network": null,
+        "source_network": null,
+        "destinationip": "9.250.243.50",
+        "sourceip": "9.59.34.88",
+        "sourcepackets": 1.0,
+        "destinationpackets": 0.0,
+        "sourcebytes": 224.0,
+        "destinationbytes": 0.0,
+        "sourceflags": null,
+        "destinationflags": null,
+        "starttime": 1607613823027
+    },
+    {
+        "flowdirection": null,
+        "protocolid": 17,
+        "applicationid": 21036,
+        "destinationport": 53,
+        "destination_network": null,
+        "source_network": null,
+        "destinationip": "9.250.243.50",
+        "sourceip": "9.59.34.88",
+        "sourcepackets": 1.0,
+        "destinationpackets": 0.0,
+        "sourcebytes": 224.0,
+        "destinationbytes": 0.0,
+        "sourceflags": null,
+        "destinationflags": null,
+        "starttime": 1607613821024
+    }
+]

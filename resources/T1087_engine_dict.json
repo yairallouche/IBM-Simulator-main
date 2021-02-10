@@ -1,0 +1,8 @@
+{
+    "technique": "T1087",
+    "output": {
+        "save": "True"
+    },
+    "sourceip": "9.59.34.88",
+    "destinationip": "9.250.243.50"
+}

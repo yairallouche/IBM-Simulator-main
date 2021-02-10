@@ -1,0 +1,19 @@
+[
+   {
+      "flowdirection": "R2R",
+      "protocolid": 6,
+      "applicationid": 1005,
+      "destinationport": 22,
+      "destination_network": "other",
+      "source_network": "other",
+      "destinationip": "9.33.2.5",
+      "sourceip": "9.33.2.15",
+      "sourcepackets": 5.0,
+      "destinationpackets": 5.0,
+      "sourcebytes": 350.0,
+      "destinationbytes": 290.0,
+      "sourceflags": 2,
+      "destinationflags": 20,
+      "starttime": 1607617099571
+   }
+]

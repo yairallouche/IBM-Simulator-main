@@ -1,0 +1,143 @@
+{
+    "technique": "Test technique",
+    "sourceip": "9.33.2.15",
+    "destinationip": [
+        "9.33.2.5"
+    ],
+    "attack_type": "one-to-one",
+    "fields_filter": {
+        "protocolid": [
+            17,
+            6,
+            1
+        ],
+        "destinationport": [
+            5355,
+            5353,
+            8081,
+            137,
+            0
+        ]
+    },
+    "flows": [
+        {
+            "flowdirection": "R2R",
+            "protocolid": 17,
+            "applicationid": 0,
+            "destinationport": 5355,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "224.0.0.252",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 1.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 88.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615169147
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 17,
+            "applicationid": 0,
+            "destinationport": 5353,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "224.0.0.251",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 4.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 376.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615169145
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 1,
+            "applicationid": 61000,
+            "destinationport": 0,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.15",
+            "sourceip": "9.33.2.5",
+            "sourcepackets": 1.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 78.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615168519
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 6,
+            "applicationid": 0,
+            "destinationport": 8081,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.5",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 5.0,
+            "destinationpackets": 5.0,
+            "sourcebytes": 350.0,
+            "destinationbytes": 290.0,
+            "sourceflags": 2,
+            "destinationflags": 20,
+            "starttime": 1607615166344
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 17,
+            "applicationid": 0,
+            "destinationport": 5355,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "224.0.0.252",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 1.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 88.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615173736
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 17,
+            "applicationid": 51337,
+            "destinationport": 137,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.5",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 4.0,
+            "destinationpackets": 4.0,
+            "sourcebytes": 384.0,
+            "destinationbytes": 668.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615169144
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 1,
+            "applicationid": 61008,
+            "destinationport": 0,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.5",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 1.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 78.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615168519
+        }
+    ]
+}

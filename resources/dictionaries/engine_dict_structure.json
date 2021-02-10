@@ -1,0 +1,12 @@
+{
+  "technique": "T1087",
+  "(optional)flowdirection": "L2L",
+  "(optional)sourceip": "192.168.1.1",
+  "(optional)destinationip": "192.168.1.2",
+  "(optional)source_network": "Haifa Server",
+  "(optional)destination_network": "Haifa Server",
+  "output": {
+    "save": "True",
+    "(optional)dir": "C:\\Users\\user\\Desktop\\"
+  }
+}

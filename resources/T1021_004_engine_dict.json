@@ -1,0 +1,8 @@
+{
+    "technique": "T1021_004",
+    "output": {
+        "save": "True"
+    },
+    "sourceip": "9.27.82.225",
+    "flowdirection": "L2L"
+}

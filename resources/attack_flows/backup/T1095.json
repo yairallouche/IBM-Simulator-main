@@ -1,0 +1,26 @@
+{
+	"technique": "non-application layer protocol",
+    "source ip": "9.33.2.15",
+    "destination ip": "9.33.2.5",
+    "attack_type": "one-to-one",
+    "fields_filter": ["protocolid","destinationport"],
+    "flows": [
+      {
+        "flowdirection": "R2R",
+        "protocolid": 6,
+        "applicationid": 9999,
+        "destinationport": 80,
+        "destination_network": "other",
+        "source_network": "other",
+        "destinationip": "9.33.2.5",
+        "sourceip": "9.33.2.15",
+        "sourcepackets": 5.0,
+        "destinationpackets": 5.0,
+        "sourcebytes": 350.0,
+        "destinationbytes": 290.0,
+        "sourceflags": 2,
+        "destinationflags": 20,
+        "starttime": 1607614793608
+     }
+  ]
+}

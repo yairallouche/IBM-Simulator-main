@@ -1,0 +1,69 @@
+{
+    "technique": "remote system discovery",
+    "sourceip": "9.33.2.15",
+    "destinationip": "9.33.2.5",
+    "attack_type": "one-to-many-hosts",
+    "fields_filter": {
+        "protocolid": [
+            17,
+            1
+        ],
+        "destinationport": [
+            1900,
+            0
+        ]
+    },
+    "flows": [
+        {
+            "flowdirection": "R2R",
+            "protocolid": 17,
+            "applicationid": 1018,
+            "destinationport": 1900,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "239.255.255.250",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 4.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 880.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615577115
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 1,
+            "applicationid": 61008,
+            "destinationport": 0,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.5",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 1.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 78.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615563018
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 1,
+            "applicationid": 61000,
+            "destinationport": 0,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.15",
+            "sourceip": "9.33.2.5",
+            "sourcepackets": 1.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 78.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607615563018
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+[
+   {
+      "flowdirection": "L2L",
+      "protocolid": 6,
+      "applicationid": 1021,
+      "destinationport": 445,
+      "destination_network": "Net_192_168_0_0",
+      "source_network": "Net_192_168_0_0",
+      "destinationip": "192.168.154.132",
+      "sourceip": "192.168.154.129",
+      "sourcepackets": 4.0,
+      "destinationpackets": 2.0,
+      "sourcebytes": 294.0,
+      "destinationbytes": 136.0,
+      "sourceflags": 27,
+      "destinationflags": 22,
+      "starttime": 1607617290744
+   },
+   {
+      "flowdirection": "L2L",
+      "protocolid": 17,
+      "applicationid": 51337,
+      "destinationport": 137,
+      "destination_network": "Net_192_168_0_0",
+      "source_network": "Net_192_168_0_0",
+      "destinationip": "192.168.154.2",
+      "sourceip": "192.168.154.132",
+      "sourcepackets": 6.0,
+      "destinationpackets": 0.0,
+      "sourcebytes": 684.0,
+      "destinationbytes": 0.0,
+      "sourceflags": null,
+      "destinationflags": null,
+      "starttime": 1607617287175
+   }
+]

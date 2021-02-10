@@ -1,0 +1,12 @@
+{
+  "technique": "T1571",
+  "source_network": [
+    "dbff39c3da481be307ac72093b557f4d6e0e47c2",
+    "460f14c245acd21d65671f3095cfdd2321d91d60",
+    "9d4aa7f50713486366a39971d15061dfaf7719b8"
+  ],
+  "output": {
+    "save": "True",
+    "dir": "C:\\Users\\user\\Desktop\\"
+  }
+}

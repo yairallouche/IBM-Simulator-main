@@ -1,0 +1,77 @@
+{
+    "flowdirection": {
+        "qradar_token": "myDir",
+        "qradar_token_type": "str",
+		"reference_flows": "network"
+    },
+    "protocolid": {
+        "qradar_token": "protocolid",
+        "qradar_token_type": "str",
+        "reference_flows": "alert"
+    },
+    "applicationid": {
+        "qradar_token": "ntaAppId",
+        "qradar_token_type": "str",
+        "reference_flows": "TBD"
+    },
+    "destinationport": {
+        "qradar_token": "destinationport",
+        "qradar_token_type": "str",
+        "reference_flows": "alert"
+    },
+    "destination_network": {
+        "qradar_token": "ntaDesNetwork",
+        "qradar_token_type": "str",
+        "reference_flows": "network"
+    },
+    "source_network": {
+        "qradar_token": "ntaSrcNetwork",
+        "qradar_token_type": "str",
+        "reference_flows": "network"
+    },
+    "destinationip": {
+        "qradar_token": "destinationip",
+        "qradar_token_type": "str",
+        "reference_flows": "network"
+    },
+    "sourceip": {
+        "qradar_token": "sourceip",
+        "qradar_token_type": "str",
+        "reference_flows": "network"
+    },
+    "sourcepackets": {
+        "qradar_token": "sourcepackets",
+        "qradar_token_type": "int",
+        "reference_flows": "alert"
+    },
+    "destinationpackets": {
+        "qradar_token": "destinationpackets",
+        "qradar_token_type": "int",
+        "reference_flows": "alert"
+    },
+    "sourcebytes": {
+        "qradar_token": "sourcebytes",
+        "qradar_token_type": "int",
+        "reference_flows": "alert"
+    },
+    "destinationbytes": {
+        "qradar_token": "destinationbytes",
+		"qradar_token_type": "int",
+        "reference_flows": "alert"
+    },
+    "sourceflags": {
+        "qradar_token": "sourceflags",
+        "qradar_token_type": "str",
+        "reference_flows": "alert"
+    },
+    "destinationflags": {
+        "qradar_token": "destinationflags",
+		"qradar_token_type": "str",
+        "reference_flows": "alert"
+    },
+    "starttime": {
+		"qradar_token": "starttime",
+		"qradar_token_type": "int",
+        "reference_flows": "TBD"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "technique": "exfiltration over alternative protocol",
+    "sourceip": "9.33.2.15",
+    "destinationip": "9.33.2.5",
+    "attack_type": "one-to-one",
+    "fields_filter": {
+        "protocolid": [
+            1
+        ]
+    },
+    "flows": [
+        {
+            "flowdirection": "R2R",
+            "protocolid": 1,
+            "applicationid": 61008,
+            "destinationport": 0,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.5",
+            "sourceip": "9.33.2.15",
+            "sourcepackets": 198.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 211348.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607614212486
+        },
+        {
+            "flowdirection": "R2R",
+            "protocolid": 1,
+            "applicationid": 61000,
+            "destinationport": 0,
+            "destination_network": "other",
+            "source_network": "other",
+            "destinationip": "9.33.2.15",
+            "sourceip": "9.33.2.5",
+            "sourcepackets": 198.0,
+            "destinationpackets": 0.0,
+            "sourcebytes": 211348.0,
+            "destinationbytes": 0.0,
+            "sourceflags": 0,
+            "destinationflags": 0,
+            "starttime": 1607614212486
+        }
+    ]
+}
